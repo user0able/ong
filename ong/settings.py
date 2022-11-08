@@ -12,6 +12,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'mailing.apps.MailingConfig',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
